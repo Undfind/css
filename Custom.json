@@ -1,0 +1,42 @@
+{
+    "room":                     "to triste kkj",
+    "author":                   "triste pra caramba",
+    "css":                      "https://rawgit.com/Undfind/css/master/vv1.css",
+    "icon":                     "",
+    "rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        false,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
+    },
+    "ccc":{  
+      "admin":                null,
+      "ambassador":           null,
+      "host":                 null,
+      "cohost":               null,
+      "manager":              null,
+      "bouncer":              null,
+      "rdj":                  null,
+      "subscriber":           null,
+      "silversubscriber":     null,
+      "friend":               null,
+      "user":                 null
+   },
+   "images":{  
+      "background":           "https://imgur.com/a/6NvKw.jpg",
+      "playback":             null,
+      "admin":                null,
+      "ambassador":           null,
+      "host":                 null,
+      "cohost":               null,
+      "manager":              null,
+      "bouncer":              null,
+      "rdj":                  null,
+      "subscriber":           null,
+      "silversubscriber":     null
+    }
+}
