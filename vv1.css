@@ -537,3 +537,12 @@ background-position: 9px 9px;
 }
 
 #chat { background: rgba(0, 0, 0, 1)}
+
+[data-cid^="5842493-"] .badge-box .bdg,
+#user-rollover.id-20574971 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://imgur.com/2s4ZjgV.jpg");
+}
