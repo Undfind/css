@@ -546,3 +546,23 @@ background-position: 9px 9px;
     background-position: center;
     background-image: url("https://imgur.com/XetWYTr.jpg");
 }
+[data-cid^="32325924-"] .badge-box .bdg,
+#user-rollover.id-32325924 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://imgur.com/Q3d27ns.jpg");
+}
+#user-rollover.id-5842493:before{
+    content: 'My Makeup';
+    top: 119px;
+    left: 135px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #f78fd4;
+    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 3px;
+    font-size: 10px;
+}
