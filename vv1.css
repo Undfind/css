@@ -105,12 +105,12 @@ background: linear-gradient(to bottom,rgba(0, 0, 0, 0.75) 0,rgba(0, 0, 0, 0.75) 
   
 /* Itens relacionados aos botões do Footer User */
 
-#footer-user .buttons div.inventory.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#000 73%,#39393A 100%);  }
-#footer-user .buttons div.badge.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#000 73%,#39393A 100%);  }
-#footer-user .buttons div.profile.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#000 73%,#39393A 100%);  }
-#footer-user .buttons div.settings.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#000 73%,#39393A 100%);  }
-#footer-user .buttons div.store.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#000 73%,#39393A 100%);  }
-#footer-user .info { background: linear-gradient(to bottom,#521114 0,rgba(142, 75, 81, 1) 56%,#1A1A1A 73%,#39393A 100%); }
+#footer-user .buttons div.inventory.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#b31e1f 73%,#b31e1f 100%);  }
+#footer-user .buttons div.badge.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#b31e1f 73%,#b31e1f 100%);  }
+#footer-user .buttons div.profile.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#b31e1f 73%,#b31e1f 100%);  }
+#footer-user .buttons div.settings.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#b31e1f 73%,#b31e1f 100%);  }
+#footer-user .buttons div.store.button:hover { background: linear-gradient(to bottom,#AE1C1C 0,rgba(179, 30, 31, 0.33) 56%,#b31e1f 73%,#b31e1f 100%);  }
+#footer-user .info { background: linear-gradient(to bottom,#521114 0,rgba(142, 75, 81, 1) 56%,#b31e1f 73%,#b31e1f 100%); }
   
 /* Itens Relacionados ao chat, delays e cores do /me */
 
@@ -259,8 +259,8 @@ background-repeat: no-repeat !important; width: 30px; height: 30px; left: 4px !i
 
 /* Barra de EXP */
 .experience .xp .bar .progress {
-border-radius: 10px 0px 10px 0px !important; background: #F70000; box-shadow: 0 0 10px 5px #F70000; }
-#footer-user .info .bar .progress { border-radius: 10px 0px 10px 0px !important; background: #F70000; box-shadow: 0 0 15px #F70000 !important; }
+border-radius: 10px 0px 10px 0px !important; background: #870e0e box-shadow: 0 0 10px 5px #870e0e; }
+#footer-user .info .bar .progress { border-radius: 10px 0px 10px 0px !important; background: #870e0e; box-shadow: 0 0 15px #870e0e !important; }
 .experience .xp .bar, #footer-user .meta div.bar { border-radius: 10px 0px 10px 0px !important; }
 #footer-user .meta div.bar { border-radius: 10px 0px 10px 0px !important; }
 
