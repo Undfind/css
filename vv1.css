@@ -566,3 +566,11 @@ background-position: 9px 9px;
     border-radius: 3px;
     font-size: 10px;
 }
+[data-cid^="24738397-"] .badge-box .bdg,
+#user-rollover.id-24738397 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://ugc.kn3.net/i/origin/https://media.giphy.com/media/lB0vWF9au9XRC/giphy.gif");
+}
