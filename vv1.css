@@ -1540,6 +1540,16 @@ background-position: 9px 9px;
     background-repeat: repeat;
     background-position: center;
     background-image: url("https://i.imgur.com/V0BNmj9.jpg");
+}	
+	[data-cid^="5842493-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://lh5.ggpht.com/UDUAkziBgTbwjHKHGk72lleRH4R1l_iy2bhChiYlkpC5S_OmGo_zqPvsdkQCsFv84Q=h1080');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
 
 #user-lists .group.host ~ .user, #user-lists .group.manager ~ .user, #user-lists .group.bouncer ~ .user, #user-lists .group.dj ~ .user {
 	color: #cf0000;
