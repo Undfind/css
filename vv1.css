@@ -36,13 +36,13 @@
 #origemscript h3 { 
   font-size: 20px; 
   text-align: center; 
-  color: #F70000; 
+  color: #aa0000; 
 }
 
 #origemscript h4 { 
   font-size: 15px; 
   text-align: right; 
-  color: #F70000; 
+  color: #aa0000; 
 }
 
 #origemscript .version { 
@@ -67,7 +67,7 @@
 }
 
 .owLinks:hover{ 
-  color: #F70000; 
+  color: #aa0000; 
 }
 
 .disabled1 { 
@@ -131,7 +131,7 @@
 .onoffswitch-inner:before { 
   content: ""; 
   padding-left: 10px; 
-  background-color: #F70000; 
+  background-color: #aa0000; 
   color: #FFFFFF; 
 }
 
@@ -206,7 +206,7 @@
 #origemscriptOther h3 {  
   font-size: 20px;    
   text-align: center; 
-  color: #F70000; 
+  color: #aa0000; 
 }
 
 #origemscriptOther .version { 
@@ -608,8 +608,8 @@
 
 .media-list.history .row.selected, 
 .media-list.history .selected .actions { 
-  background:#E01212 !important; 
-  box-shadow: 0 0 10px #E01212 !important; 
+  background:#9b0c0c !important; 
+  box-shadow: 0 0 10px #9b0c0c !important; 
 }
 
 #playlist-create:hover { 
@@ -1066,7 +1066,7 @@ box-shadow: 0 0 10px rgba(158, 11, 11, 1) !important; }
   -o-text-overflow: clip;
   text-overflow: clip;
   white-space: pre;
-  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #F70000  , 0 0 70px #F70000  , 0 0 80px #F70000  , 0 0 100px #F70000 ;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #F70000  , 0 0 70px #aa0000  , 0 0 80px #aa0000  , 0 0 100px #aa0000 ;
   -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
@@ -1080,7 +1080,7 @@ box-shadow: 0 0 10px rgba(158, 11, 11, 1) !important; }
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-#origem-info { color: #F70000 !important; }
+#origem-info { color: #aa0000 !important; }
 #info_dialog > .dialog-frame .button.submit { background: linear-gradient(to bottom,rgba(205, 27, 27, 0.8) 0,rgba(190, 34, 34, 1) 100%);
 box-shadow: 0 0 10px rgba(158, 30, 11, 1) !important; }
 .media-list .row.now-playing { border-bottom: #FC2457 2px solid !important; }
@@ -1180,13 +1180,13 @@ a:-webkit-any-link {
 }
 
 #tooltip .corner{ 
-  border-top: 10px solid #F70000; 
-  border-left: 10px solid #F70000; 
+  border-top: 10px solid #aa0000; 
+  border-left: 10px solid #aa0000; 
 }
 
 #tooltip.right .corner{ 
-  border-top:10px solid #F70000; 
-  border-right:10px solid #F70000 
+  border-top:10px solid #aa0000; 
+  border-right:10px solid #aa0000 
 }
 
 .origem-menu-heading, .origem-menu-submenu .origem-submenu-heading { color: #FF0A0A !important; }
@@ -1236,18 +1236,18 @@ background-position: 9px 9px;
 
 /*  Co-host */
 #chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
-   color: #cf0000 !important;
+   color: #302424 !important;
     
 }
 
 .icon-chat-cohost,.message.from-cohost > .icon,.emote.from-cohost > .icon,.mention.from-cohost > .icon {
-    background-image: url("http://i.imgur.com/uLOlqJm.png") !important;
+    background-image: url("https://imgur.com/IpDIJ7s.png") !important;
     background-position: 0 0;
     
 }
 
 .icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
-   color: #cf0000 !important;
+   color: #302424 !important;
 } 
 /* Co-host end */
 
@@ -1301,7 +1301,7 @@ background-position: 9px 9px;
 .origem-color-manager,
 .origem-color-bouncer,
 .origem-color-dj{ 
-  color: #cf0000 !important;
+  color: #302424 !important;
 }
 
 /* Nevím jak to nazvat #2 */
