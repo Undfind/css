@@ -1236,7 +1236,7 @@ background-position: 9px 9px;
 
 /*  Co-host */
 #chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
-   color: #302424 !important;
+   color: #0f00f2 !important;
     
 }
 
@@ -1247,7 +1247,7 @@ background-position: 9px 9px;
 }
 
 .icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
-   color: #302424 !important;
+   color: #0f00f2 !important;
 } 
 /* Co-host end */
 
