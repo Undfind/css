@@ -942,7 +942,7 @@ box-shadow: 0 0 10px rgba(158, 11, 11, 1) !important; }
 .user-content.profile .meta .blurb input, .user-content.profile .meta .blurb .box, 
 #user-lists .list-header .input-background,
 .app-right .friends .list-header .input-background { 
-  border-radius: 30px;   
+  border-radius: 0px;   
   background: #282c35; 
 } 
 
