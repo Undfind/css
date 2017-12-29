@@ -1727,7 +1727,7 @@ em {
 }
 
 #vote #grab:hover {
-	background: rgb(220, 204, 66, .5);
+	background: rgba(220, 204, 66, .5);
 }
 
 #vote #woot:hover {
