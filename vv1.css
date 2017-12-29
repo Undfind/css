@@ -1680,3 +1680,116 @@ em {
 #user-lists .group.host ~ .user, #user-lists .group.manager ~ .user, #user-lists .group.bouncer ~ .user, #user-lists .group.dj ~ .user {
 	color: #cf0000;
 }
+/*
+    Editado por: Philippe Henrique
+    Atenção: Este código é livre, qualquer pessoa pode usá-lo.
+    - Se possível não retirar os créditos :)
+*/
+
+#vote {
+	width: 267px !important;
+}
+
+#woot .bottom,
+#grab .bottom,
+#meh  .bottom {
+	opacity: 0;
+}
+
+#vote .crowd-response,
+.bottom {
+	transition: all .4s linear;
+	-webkit-transition: all .4s linear;
+}
+
+#vote .crowd-response {
+	color: #fff;
+	border: none;
+	border-radius: 100%;
+	margin-right: 5px;
+	margin-left: 0 !important;
+	background: transparent;
+	width: 84px !important;
+	height: 84px !important;
+	bottom: 20px !important;
+	-webkit-box-shadow: inset 0 0 1px 1px rgba(255,255,255,.5);
+	        box-shadow: inset 0 0 1px 1px rgba(255,255,255,.5);
+}
+
+#vote .crowd-response:hover {	cursor: pointer !important; }
+
+#vote .crowd-response.selected {
+	color: #fff;
+}
+
+#vote .crowd-response .top .label {
+	font-weight: normal;
+}
+
+#vote #grab:hover {
+	background: rgb(220, 204, 66, .5);
+}
+
+#vote #woot:hover {
+	background: rgba(144, 173, 47, .5);
+}
+
+#vote #meh:hover {
+	background: rgba(196, 46, 59, .5);
+}
+
+#vote .crowd-response:hover .bottom {
+	opacity: 1;
+	top: 60px;
+	border-radius: 0 0 100% 100%;
+}
+
+#vote .crowd-response .top {
+	top: 23px;
+	left: 0px !important;
+}
+
+.votes-rs {
+    top: -18px;
+    z-index: -1 !important;
+    border-bottom: none !important;
+    background: -webkit-linear-gradient(#000, transparent) !important;
+    background: -o-linear-gradient(#000, transparent) !important;
+    background: linear-gradient(#000, transparent) !important;
+}
+
+.votes-rs .voteslist {
+	height: 160px;
+}
+
+.voteslist p {
+	padding: 3px 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+
+/* Cores personalizadas
+-------------------------------------------------------------------------------*/
+
+/* Botão Woot */
+#woot .bottom, #woot.selected {
+	background: -webkit-linear-gradient(top left, #90ad2f, transparent) !important;
+	background: -o-linear-gradient(top left, #90ad2f, transparent) !important;
+	background: linear-gradient(to bottom right, #90ad2f, transparent) !important;
+}
+
+/* Botão Adicionar Música à playlist */
+#grab .bottom, #grab.selected {
+	background: -webkit-linear-gradient(top left, #dccc42, transparent) !important;
+	background: -o-linear-gradient(top left, #dccc42, transparent) !important;
+	background: linear-gradient(to bottom right, #dccc42, transparent) !important;
+}
+.votes-rs .title.grab {
+	background: #dccc42 !important;
+}
+
+/* Botão Meh */
+#meh .bottom, #meh.selected {
+	background: -webkit-linear-gradient(top left, #c42e3b, transparent) !important;
+	background: -o-linear-gradient(top left, #c42e3b, transparent) !important;
+	background: linear-gradient(to bottom right, #c42e3b, transparent) !important;
+}
