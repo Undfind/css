@@ -1223,7 +1223,7 @@ background-position: 9px 9px;
 }
 
 .icon-chat-host,.message.from-host > .icon,.emote.from-host > .icon,.mention.from-host > .icon {
-    background-image: url("http://i.imgur.com/uLOlqJm.png") !important;
+    background-image: url("https://imgur.com/GC7mroF.png") !important;
     background-position: 0 0;
 }
 
@@ -1792,4 +1792,16 @@ em {
 	background: -webkit-linear-gradient(top left, #c42e3b, transparent) !important;
 	background: -o-linear-gradient(top left, #c42e3b, transparent) !important;
 	background: linear-gradient(to bottom right, #c42e3b, transparent) !important;
+}
+.icon.icon-site-logo {
+    background: url("https://i.imgur.com/p9fpZQR.png") repeat scroll 0% 0% transparent !important;
+    background-position: -5px 0px;
+}
+i.icon.icon-current-dj {
+    position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url('https://i.imgur.com/CE8x4pn.png') !important;
+    background-position-x: 0%;
+    background-position-y: 0%;
 }
