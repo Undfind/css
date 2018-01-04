@@ -1473,87 +1473,6 @@ background-position: 9px 9px;
     box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0) inset !important;
 }
 
-[data-cid^="24738397-"] .msg .from .un {
-    position: relative;
-    left:-1px;
-    padding-left:21px;
-    background-image: url('https://rocketdock.com/images/screenshots/Untitled-1-47.png');
-    background-repeat: no-repeat;
-    background-position: 2px center;
-    background-size: 15px auto;
-}    
-
-#chat .cm[data-cid^="-"] .un {
-  color: #ff69b4;
-}
-
-/* # */
-#chat [data-cid^="-"] .bdg {
-  background: url('http://s28.postimg.org/jq06oqo3d/XKubbdm.png') !important;
-  background-position: 0px 0px;
-}
-
-/* # */
-#chat [data-cid^="-"] .bdg {
-  background: url('http://s21.postimg.org/j688u2av7/WALL_E_24.png') !important;
-  background-position: 0px 0px;
-}
-
-/* # */
-#chat [data-cid^="-"] .bdg {
-  background: url('http://i.imgur.com/G5IOw5n.png') !important;
-  background-position: 0px 0px;
-}
-/* Plébeia */
-[data-cid^="5842493-"] .badge-box .bdg,
-#user-rollover.id-5842493 .badge-box .bdg {
-    border-radius: 5px;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    background-image: url("https://imgur.com/MTjTLRW.jpg");
-}
-/* Priscila1995 */
-[data-cid^="32325924-"] .badge-box .bdg,
-#user-rollover.id-32325924 .badge-box .bdg {
-    border-radius: 5px;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    background-image: url("https://imgur.com/WLGB7Ro.jpg");
-}
-#user-rollover.id-5842493:before{
-    content: 'My Makeup';
-    top: 119px;
-    left: 135px;
-    position: absolute;
-    display: inline-block; 
-    padding: 0 3px;
-    color: #f78fd4;
-    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
-    border-radius: 3px;
-    font-size: 10px;
-}
-/* !Special Agent Burking */
-[data-cid^="24738397-"] .badge-box .bdg,
-#user-rollover.id-24738397 .badge-box .bdg {
-    border-radius: 5px;
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center;
-    background-image: url("https://i.imgur.com/V0BNmj9.jpg");
-}	
-/* Plébeia */
-[data-cid^="5842493-"] .msg .from .un {
-    position: relative;
-    left:-1px;
-    padding-left:21px;
-    background-image: url('https://lh5.ggpht.com/UDUAkziBgTbwjHKHGk72lleRH4R1l_iy2bhChiYlkpC5S_OmGo_zqPvsdkQCsFv84Q=h1080');
-    background-repeat: no-repeat;
-    background-position: 2px center;
-    background-size: 15px auto;
-}    
-
 #chat .from.promoter .un {
     color: #1abc9c !important;
 }
@@ -1805,3 +1724,86 @@ i.icon.icon-current-dj {
     background-position-x: 0%;
     background-position-y: 0%;
 }
+
+/* Usuários */ 
+[data-cid^="24738397-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://rocketdock.com/images/screenshots/Untitled-1-47.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
+
+#chat .cm[data-cid^="-"] .un {
+  color: #ff69b4;
+}
+
+/* # */
+#chat [data-cid^="-"] .bdg {
+  background: url('http://s28.postimg.org/jq06oqo3d/XKubbdm.png') !important;
+  background-position: 0px 0px;
+}
+
+/* # */
+#chat [data-cid^="-"] .bdg {
+  background: url('http://s21.postimg.org/j688u2av7/WALL_E_24.png') !important;
+  background-position: 0px 0px;
+}
+
+/* # */
+#chat [data-cid^="-"] .bdg {
+  background: url('http://i.imgur.com/G5IOw5n.png') !important;
+  background-position: 0px 0px;
+}
+/* Plébeia */
+[data-cid^="5842493-"] .badge-box .bdg,
+#user-rollover.id-5842493 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://imgur.com/MTjTLRW.jpg");
+}
+/* Priscila1995 */
+[data-cid^="32325924-"] .badge-box .bdg,
+#user-rollover.id-32325924 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://imgur.com/WLGB7Ro.jpg");
+}
+/* Plébeia/2 */
+#user-rollover.id-5842493:before{
+    content: 'My Makeup';
+    top: 119px;
+    left: 135px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #f78fd4;
+    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 3px;
+    font-size: 10px;
+}
+/* !Special Agent Burking */
+[data-cid^="24738397-"] .badge-box .bdg,
+#user-rollover.id-24738397 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://i.imgur.com/V0BNmj9.jpg");
+}	
+/* Plébeia/3 */
+[data-cid^="5842493-"] .msg .from .un {
+    position: relative;
+    left:-1px;
+    padding-left:21px;
+    background-image: url('https://lh5.ggpht.com/UDUAkziBgTbwjHKHGk72lleRH4R1l_iy2bhChiYlkpC5S_OmGo_zqPvsdkQCsFv84Q=h1080');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 15px auto;
+}    
